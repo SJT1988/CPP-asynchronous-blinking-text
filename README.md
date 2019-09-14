@@ -8,4 +8,4 @@ Potential use-cases:
 * text adventure games
 
 The animation runs indefinitely until the user types the ENTER key. This requires the new asynchronous libraries featured in C++14,
-including <thread> and <future>.
+including \<thread\> and \<future\>.
