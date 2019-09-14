@@ -42,7 +42,7 @@ public:
 			//using _getch is not universal but it does prevent the loop from latently printing to the next line also
 			userStr = _getch();
 			//getline(cin, userStr);
-			if (userStr == "") {
+			if (userStr == "\r") {
 				cout << string(str.length(), '\b'); // go to front of line
 				cout << string(str.length(), ' ');; //overwrite with spaces
 				cout << string(str.length(), '\b'); // go to front of line
