@@ -82,7 +82,6 @@ int main()
 	UI ui;
 	//Title Card
 	ui.titleCard();
-
 	//Intro
 	ui.intro();
 	return 0;
