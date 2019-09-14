@@ -50,7 +50,7 @@ public:
 			}
 		});
 
-		while (f._Is_ready() == false/*f.wait_for(1s) != std::future_status::ready*/) {
+		while (f._Is_ready() == false) {
 			str = "Press ENTER to continue";
 			cout << str;
 			sleep_until(system_clock::now() + 0.5s); // wait a half-second
